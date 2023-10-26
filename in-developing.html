@@ -62,7 +62,7 @@
       "Сайт", "Лендинг", "Дизайн", "Разработка"
     ]
     setInterval(() => {
-      typingElement.textContent = Math.floor(Math.random() * words.length)
+      typingElement.textContent = words[Math.floor(Math.random() * words.length)]
     }, 300);
   </script>
 </body>
