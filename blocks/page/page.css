@@ -1,0 +1,9 @@
+html {
+    cursor: none;
+}
+
+.page {
+    min-width: 100lvh;
+    background-color: #121212;
+    cursor: none;
+}

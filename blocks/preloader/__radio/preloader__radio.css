@@ -1,0 +1,8 @@
+.preloader__radio {
+    display: flex;
+    position: relative;
+}
+.radio__input:checked + .radio__content {
+    color: #121212; 
+    background-color: #00FF41;
+}

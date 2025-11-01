@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVELOPER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/pc.css">
+</head>
+
+<body class="page">
+    <section class="section preloader">
+        <div style="display:none;" class="custom-cursor1"></div>
+        <div class="preloader__terminal">
+        </div>
+        <button class="hover-target button preloader__button hidden"></button>
+        <div class="preloader__lang">
+            <label class="hover-target button radio preloader__radio">
+                <input class="radio__input" type="radio" name="lang" value="RU" checked>
+                <span class="radio__content">RU</span>
+            </label>
+            <label class="hover-target button radio preloader__radio">
+                <input class="radio__input" type="radio" name="lang" value="EN">
+                <span class="radio__content">EN</span>
+            </label>
+        </div>
+        <label class="hover-target button checkbox preloader__checkbox">
+            <input class="checkbox__input" type="checkbox" name="audio" checked>
+            <span class="checkbox__content">
+                <svg class="img" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                    shape-rendering="crispEdges">
+                    <rect x="2" y="5" width="3" height="6" fill="currentColor" />
+                    <rect x="5" y="4" width="2" height="8" fill="currentColor" />
+                    <rect x="7" y="6" width="1" height="4" fill="currentColor" />
+                    <rect x="9" y="7" width="1" height="2" fill="currentColor" />
+                    <rect x="10" y="6" width="1" height="1" fill="currentColor" />
+                    <rect x="10" y="9" width="1" height="1" fill="currentColor" />
+                    <rect x="12" y="5" width="1" height="1" fill="currentColor" />
+                    <rect x="12" y="10" width="1" height="1" fill="currentColor" />
+                    <rect x="13" y="7" width="1" height="2" fill="currentColor" />
+                </svg> </span>
+        </label>
+
+
+
+    </section>
+    <section class="section start">
+        <div style="display: none;" class="custom-cursor2"></div>
+        <h1 class="start__name" style="font-family: Arial, Helvetica, sans-serif; color: white; font-size: 50px;">DXIII</h1>
+    </section>
+
+
+
+
+    <canvas class="scene-3d" id="start-scene"></canvas>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

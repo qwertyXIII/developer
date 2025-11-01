@@ -1,0 +1,7 @@
+.preloader__lang {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #00FF41;
+}

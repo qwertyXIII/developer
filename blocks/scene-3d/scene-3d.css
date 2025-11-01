@@ -1,0 +1,12 @@
+.scene-3d {
+  position: fixed;
+  inset: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 0;
+  transform: none !important;
+  translate: none !important;
+  scale: 1 !important;
+  pointer-events: none;
+  background: transparent !important;
+}

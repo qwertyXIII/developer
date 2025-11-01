@@ -1,0 +1,27 @@
+@import url('../blocks/page/page.css');
+
+/* all */
+@import url('../blocks/section/section.css');
+@import url('../blocks/scene-3d/scene-3d.css');
+/* CUSTOM CURSOR */
+@import url('../blocks/custom-cursor/custom-cursor.css');
+/* BUTTON */
+@import url('../blocks/button/button.css');
+/* RADIO */
+@import url('../blocks/radio/radio.css');
+@import url('../blocks/radio/__input/radio__input.css');
+@import url('../blocks/radio/__content/radio__content.css');
+/* CHECKBOX */
+@import url('../blocks/checkbox/checkbox.css');
+@import url('../blocks/checkbox/__input/checkbox__input.css');
+@import url('../blocks/checkbox/__content/checkbox__content.css');
+/* PRELOADER */
+@import url('../blocks/preloader/preloader.css');
+@import url('../blocks/preloader/__lang/preloader__lang.css');
+@import url('../blocks/preloader/__checkbox/preloader__checkbox.css');
+@import url('../blocks/preloader/__radio/preloader__radio.css');
+@import url('../blocks/preloader/__button/preloader__button.css');
+@import url('../blocks/preloader/__terminal/preloader__terminal.css');
+@import url('../blocks/preloader/__text/preloader__text.css');
+
+@import url('../blocks/start/start.css');

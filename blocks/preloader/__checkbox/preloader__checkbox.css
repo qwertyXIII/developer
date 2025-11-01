@@ -1,0 +1,21 @@
+.preloader__checkbox {
+    color: #00FF41;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.preloader__checkbox .checkbox__input:checked + .checkbox__content {
+    color: #121212; 
+    background-color: #00FF41;
+}
+.preloader__checkbox .checkbox__content{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader__checkbox .img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,5 @@
+.preloader__terminal {
+    color: #00FF41;
+    font-size: 20px;
+    width: calc(100% - 40px);
+}

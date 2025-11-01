@@ -1,0 +1,19 @@
+.preloader__button {
+    color: #00FF41;
+    font-size: 20px;
+    background-color: transparent;
+    height: 26px;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.preloader__button:hover {
+    background-color: #00FF41;
+    color: #121212;
+}
+.preloader__button.active {
+    background-color: #00FF41;
+    color: #121212;
+}
+.preloader__button.hidden {
+    display: none;
+}
