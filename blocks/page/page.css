@@ -1,9 +1,11 @@
 html {
-    cursor: none;
+  cursor: none;
 }
 
 .page {
-    min-width: 100lvh;
-    background-color: #121212;
-    cursor: none;
+  min-width: 100lvh;
+  background-color: #121212;
+  cursor: none;
+  margin: 0;
+  scroll-behavior: smooth;
 }

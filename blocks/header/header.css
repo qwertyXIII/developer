@@ -1,0 +1,12 @@
+.header {
+  font-family: 'DM Sans', sans-serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  width: 100vw;
+  padding: 20px 20px 0;
+}

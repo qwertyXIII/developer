@@ -2,59 +2,106 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVELOPER</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./pages/pc.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEVELOPER</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./pages/pc.css">
 </head>
 
 <body class="page">
-    <section class="section preloader">
-        <div style="display:none;" class="custom-cursor1"></div>
-        <div class="preloader__terminal">
+  <header class="header">
+    <h1 class="header__name">ÐXłłł.tech</h1>
+    <div class="header__container"><button class="button hover-target"></button></div>
+  </header>
+  <section class="section preloader">
+    <div style="display:none;" class="custom-cursor1"></div>
+    <div class="preloader__terminal">
+    </div>
+    <button class="hover-target button preloader__button hidden"></button>
+    <div class="preloader__lang">
+      <label class="hover-target button radio preloader__radio">
+        <input class="radio__input" type="radio" name="lang" value="RU" checked>
+        <span class="radio__content">RU</span>
+      </label>
+      <label class="hover-target button radio preloader__radio">
+        <input class="radio__input" type="radio" name="lang" value="EN">
+        <span class="radio__content">EN</span>
+      </label>
+    </div>
+    <label class="hover-target button checkbox preloader__checkbox">
+      <input class="checkbox__input" type="checkbox" name="audio" checked>
+      <span class="checkbox__content">
+        <svg class="img" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+          shape-rendering="crispEdges">
+          <rect x="2" y="5" width="3" height="6" fill="currentColor" />
+          <rect x="5" y="4" width="2" height="8" fill="currentColor" />
+          <rect x="7" y="6" width="1" height="4" fill="currentColor" />
+          <rect x="9" y="7" width="1" height="2" fill="currentColor" />
+          <rect x="10" y="6" width="1" height="1" fill="currentColor" />
+          <rect x="10" y="9" width="1" height="1" fill="currentColor" />
+          <rect x="12" y="5" width="1" height="1" fill="currentColor" />
+          <rect x="12" y="10" width="1" height="1" fill="currentColor" />
+          <rect x="13" y="7" width="1" height="2" fill="currentColor" />
+        </svg> </span>
+    </label>
+
+
+
+  </section>
+  <section class="section start">
+    <div style="display: none;" class="custom-cursor2"></div>
+
+    <div class="start__screen start__screen_1">
+      <p class="start__title" l10n="START_TITLE" id="start-title"></p>
+      <p class="start__subtitle" l10n="START_SUBTITLE" id="start-subtitle"></p>
+      <div class="start__scroll-spoiler" l10n="START_SCROLL_SPOILER"></div>
+    </div>
+
+    <div class="start__screen start__screen_2 developing">
+      <div class="developing__block right">
+        <p class="developing__title" l10n="START_TEXT_ABOUT_SITES_TITLE"></p>
+        <p class="developing__text" l10n="START_TEXT_ABOUT_SITES_TEXT"></p>
+      </div>
+      <div class="developing__block">
+        <p class="developing__title" l10n="START_TEXT_ABOUT_STORYTALING_TITLE"></p>
+        <p class="developing__text" l10n="START_TEXT_ABOUT_STORYTALING_TEXT"></p>
+      </div>
+      <div class="developing__block right">
+        <p class="developing__title" l10n="START_TEXT_ABOUT_BOTS_TITLE"></p>
+        <p class="developing__text" l10n="START_TEXT_ABOUT_BOTS_TEXT"></p>
+      </div>
+    </div>
+    <div class="start__screen start__screen_3 create">
+      <div class="create__scroll">
+        <div class="hover-target create__card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
+            <div class="card__engraving" l10n="CARD_WEB_BG"></div>
+            <img src="" class="card__img">
+            <p class="card__text" l10n="CARD_WEB_TEXT"></p>
         </div>
-        <button class="hover-target button preloader__button hidden"></button>
-        <div class="preloader__lang">
-            <label class="hover-target button radio preloader__radio">
-                <input class="radio__input" type="radio" name="lang" value="RU" checked>
-                <span class="radio__content">RU</span>
-            </label>
-            <label class="hover-target button radio preloader__radio">
-                <input class="radio__input" type="radio" name="lang" value="EN">
-                <span class="radio__content">EN</span>
-            </label>
+        <div class="hover-target create__card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
+            <div class="card__engraving" l10n="CARD_SERVER_BG"></div>
+            <img src="" class="card__img">
+            <p class="card__text" l10n="CARD_SERVER_TEXT"></p>
         </div>
-        <label class="hover-target button checkbox preloader__checkbox">
-            <input class="checkbox__input" type="checkbox" name="audio" checked>
-            <span class="checkbox__content">
-                <svg class="img" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                    shape-rendering="crispEdges">
-                    <rect x="2" y="5" width="3" height="6" fill="currentColor" />
-                    <rect x="5" y="4" width="2" height="8" fill="currentColor" />
-                    <rect x="7" y="6" width="1" height="4" fill="currentColor" />
-                    <rect x="9" y="7" width="1" height="2" fill="currentColor" />
-                    <rect x="10" y="6" width="1" height="1" fill="currentColor" />
-                    <rect x="10" y="9" width="1" height="1" fill="currentColor" />
-                    <rect x="12" y="5" width="1" height="1" fill="currentColor" />
-                    <rect x="12" y="10" width="1" height="1" fill="currentColor" />
-                    <rect x="13" y="7" width="1" height="2" fill="currentColor" />
-                </svg> </span>
-        </label>
-
-
-
-    </section>
-    <section class="section start">
-        <div style="display: none;" class="custom-cursor2"></div>
-        <h1 class="start__name" style="font-family: Arial, Helvetica, sans-serif; color: white; font-size: 50px;">DXIII</h1>
-    </section>
+        <div class="hover-target create__card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
+            <div class="card__engraving" l10n="CARD_SUPPORT_BG"></div>
+            <img src="" class="card__img">
+            <p class="card__text" l10n="CARD_SUPPORT_TEXT"></p>
+        </div>
+      </div>
+    </div>
+    <div class="start__screen start__screen_4"></div>
+    <div class="start__screen start__screen_5"></div>
+  </section>
 
 
 
 
-    <canvas class="scene-3d" id="start-scene"></canvas>
-    <script type="module" src="./pc.js"></script>
+  <canvas class="scene-3d" id="start-scene"></canvas>
+  <canvas class="scene-3d hidden" id="create-scene"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  <script type="module" src="./pc.js"></script>
 </body>
 
 </html>

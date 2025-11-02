@@ -1,0 +1,10 @@
+.card__text {
+  color: gray;
+  position: relative;
+  z-index: 300;
+  font-weight: 700;
+  font-size: 18px;
+  margin: auto 0;
+  max-width: 250px;
+  text-align: center;
+}

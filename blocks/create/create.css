@@ -1,0 +1,7 @@
+.create {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}

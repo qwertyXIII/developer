@@ -24,4 +24,28 @@
 @import url('../blocks/preloader/__terminal/preloader__terminal.css');
 @import url('../blocks/preloader/__text/preloader__text.css');
 
+/* HEADER */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__name/header__name.css');
+/* START */
 @import url('../blocks/start/start.css');
+@import url('../blocks/start/__screen/start__screen.css');
+@import url('../blocks/start/__title/start__title.css');
+@import url('../blocks/start/__subtitle/start__subtitle.css');
+@import url('../blocks/start/__scroll-spoiler/start__scroll-spoiler.css');
+
+/* DEVELOPING */
+@import url('../blocks/developing/developing.css');
+@import url('../blocks/developing/__block/developing__block.css');
+@import url('../blocks/developing/__title/developing__title.css');
+@import url('../blocks/developing/__text/developing__text.css');
+
+/* CREATE */
+@import url('../blocks/create/create.css');
+@import url('../blocks/create/__scroll/create__scroll.css');
+/* CARD */
+@import url('../blocks/create/__card/create__card.css');
+@import url('../blocks/create/__engraving/card__engraving.css');
+@import url('../blocks/create/__img/card__img.css');
+@import url('../blocks/create/__text/card__text.css');
+

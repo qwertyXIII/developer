@@ -1,0 +1,10 @@
+.developing__text {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.developing__block.right .developing__text {
+  text-align: end;
+}
