@@ -76,12 +76,12 @@ const dict = {
     en: 'I craft websites that tell stories. Each page is designed to immediately capture the user’s attention and guide them through a unique visual and interactive journey, turning an ordinary site visit into a memorable experience.'
   },
   START_TEXT_ABOUT_BOTS_TITLE: {
-    ru: 'ИИ-боты и автоматизация',
-    en: 'AI Bots & Automation'
+    ru: 'ИИ-помощники и автоматизация',
+    en: 'AI Assistants & Automation'
   },
   START_TEXT_ABOUT_BOTS_TEXT: {
-    ru: 'Автоматизирую бизнес-процессы с помощью ИИ. Разрабатываю виртуальных ассистентов и ботов, которые помогают собирать лиды, ускоряют коммуникацию с клиентами и повышают эффективность взаимодействия. Ваши клиенты смогут получать быстрые и удобные ответы, а вы — сосредоточиться на развитии бизнеса.',
-    en: 'I automate business processes using AI. I develop virtual assistants and bots that help capture leads, streamline communication with clients, and enhance overall efficiency. Your clients receive fast and convenient responses, while you focus on growing your business.'
+    ru: 'Создаю интеллектуальных ИИ-ассистентов, которые берут на себя рутинные задачи, помогают составлять расписание, напоминания, автоматизируют рабочие процессы и ускоряют взаимодействие с клиентами. Это гибкие цифровые помощники, работающие круглосуточно и экономящие ваше время.',
+    en: 'I develop intelligent AI assistants that handle routine tasks, manage schedules and reminders, automate workflows, and streamline client interactions. These are flexible digital helpers that work 24/7 and save your time.'
   },
   // === CREATE CARDS TEXTS ===
   CARD_WEB_BG: {
